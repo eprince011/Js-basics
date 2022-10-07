@@ -37,13 +37,6 @@ console.log(add(20, 20, 20))
 // LOOP THE COUNTS FROM 0 => 10000 -> INDEX IS 1, INDEX IS 2 EventCounts. IF INDEX IS AT 500, PRINT IM ABOUT TO BREAK, THEN BREAK.
 
 // solution
-
-
-
-
-
-
-
 // for (let index = 1; index <= 10; index++) {
 //     if (index < 5) {
 //         console.log(index);
@@ -53,7 +46,7 @@ console.log(add(20, 20, 20))
 //     }
 // }
 
-
+// create a loop that counts from 0 => 1000 -> index is 1, 2, 3, 4 etc. if the index is at 500, print a statement that says i'm about to break
 for (let index = 0; index <= 1000; index++) {
     if (index == 500) {
         console.log( "I'm going to break " + index);
