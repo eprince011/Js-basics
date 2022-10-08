@@ -66,7 +66,43 @@ console.log(add(20, 20, 20))
 //   }
   
 //   // This will return "John Doe":
-//   let x = person.fullName();  
-// console.log(person.fullName())
+//   let x = person.fullName();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+// // console.log(person.fullName())
 
 
+// const person = {
+//     fullName: function() {
+//       return this.firstName + " " + this.lastName;
+//     }
+//   }
+//   const person1 = {
+//     firstName:"John",
+//     lastName: "Doe"
+//   }
+//   const person2 = {
+//     firstName:"Mary",
+//     lastName: "Dan"
+//   }
+  
+//   // This will return "John Doe":
+//  let x =  person.fullName.call(person1);
+//  console.log(x )
+  
+
+// this exaample calls the fullName method of person, using it on person1
+const person = {
+    fullName: function(city, country) {
+      return this.firstName + " " + this.lastName + "," + city + "," + country;
+    }
+  }
+  
+  const person1 = {
+    firstName:"Prince",
+    lastName: "Williams"
+  }
+  
+  const person2 = {
+    firstName:"Prisca",
+    lastName: "Doe"
+  }
+  console.log(person.fullName.call(person1, "Abia", "Nigeria"));
