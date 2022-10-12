@@ -90,19 +90,26 @@ console.log(add(20, 20, 20))
   
 
 // this exaample calls the fullName method of person, using it on person1
-const person = {
-    fullName: function(city, country) {
-      return this.firstName + " " + this.lastName + "," + city + "," + country;
-    }
-  }
+// const person = {
+//     fullName: function(city, country) {
+//       return this.firstName + " " + this.lastName + "," + city + "," + country;
+//     }
+//   }
   
-  const person1 = {
-    firstName:"Prince",
-    lastName: "Williams"
-  }
+//   const person1 = {
+//     firstName:"Prince",
+//     lastName: "Williams"
+//   }
   
-  const person2 = {
-    firstName:"Prisca",
-    lastName: "Doe"
-  }
-  console.log(person.fullName.call(person1, "Abia", "Nigeria"));
+//   const person2 = {
+//     firstName:"Prisca",
+//     lastName: "Doe"
+//   }
+//   console.log(person.fullName.call(person1, "Abia", "Nigeria"));
+
+
+function jack(){
+  return
+
+}
+jack()
